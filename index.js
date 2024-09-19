@@ -64,7 +64,7 @@ function lowercaseFirstLetter(str)
         return str
     }
     let ltr=str[0].toLowerCase()
-    let newstr=str.slice(1,str.lenght)
+    let newstr=str.slice(1)
     return ltr+newstr      
     
 }
